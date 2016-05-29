@@ -1,0 +1,21 @@
+#header-nav {
+    border-radius: 0;
+}
+
+#header-nav h1 {
+    margin: 0;
+    line-height: 1;
+    font-size: 32px;
+}
+
+#nav-list {
+    background-color: #ee0000;
+}
+
+a.navbar-brand {
+    padding: 9px 15px;
+}
+
+section {
+    background-color: #ddd;
+}
