@@ -9,10 +9,27 @@
 }
 
 #nav-list {
-    background-color: #ee0000;
+    background-color: #ffffe6;
 }
 
-a.navbar-brand {
+#nav-list li a {
+    color: #ff0000;
+    text-align: center;
+}
+
+#nav-list li:hover {
+    background-color: #f6f6e6;
+}
+
+#nav-list li {
+    border-bottom: 1px solid red;
+}
+
+#nav-list:nth-child(1) {
+    border-top: 1px solid red;
+}
+
+#header-nav .navbar-brand {
     padding: 9px 15px;
 }
 
