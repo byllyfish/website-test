@@ -33,14 +33,20 @@
 }
 
 #main-content {
-    margin: 15px;
+    margin: 0px 5px 0px 5px;
+}
+
+#main-content > .row > div {
+    /* default padding for columns is 0px 15px 0px 15px */
+    padding: 10px;
 }
 
 #main-content h2 {
-    margin-top: 5px;
-    margin-bottom: 20px;
+    margin: 5px 0px 15px 0px;
 }
 
 #main-content section {
-    background-color: #dddddd;
+    border: 1px solid grey;
+    background-color: #eeeeee;
+    padding: 0px 10px 0px 10px;
 }
